@@ -1,0 +1,21 @@
+
+
+{% extends "base.html" %}
+
+ <div id="content">
+{% block content %}
+    <p>
+  {% for p in posts %}
+    {{ p.render() | safe }}
+    </p>
+    <br><br>
+  {% endfor %}
+
+{% endblock %}
+</div>
+
+</body>
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+</html>

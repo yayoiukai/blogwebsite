@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+     <head>
+    <meta charset="utf-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/custom.css" ref="stylesheet">
+    <script src="../bootstrap/js/respond.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grid Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+	<style>
+		body {
+			padding: 50px 16px;
+			background-color:#F8F8F8;
+
+		}
+		.container {
+		  padding: 0 1em;
+		  background-color:white;
+		  width:90%;
+		  align:center;
+		}
+
+		h4 {
+		  margin-top: 1.5em;
+		}
+		.row {
+		  margin-bottom: 1.5em;
+		}
+		.row .row {
+		  margin-top: 0.8em;
+		  margin-bottom: 0;
+		}
+		[class*="col-"] {
+		  padding: 1em 0;
+		  background-color:#99ADEB;
+          border-radius:25px;
+          padding: 0px 0px 15px 15px;
+
+}
+
+	</style>
+    <body>
+    <div class="container">
+    <div class="row">
+    	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="/documentary">Documentary</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+         </nav>
+    </div>
+
+    <body>
+    <a href="/" class="main-title">
+     home
+     </a>
+
+
+  {% block content %}
+  {% endblock %}
+
+
+
+
